@@ -1,0 +1,100 @@
+.sidenav {
+    width: 250px;
+    transition: width 0.3s ease-in-out;
+    height: 100vh;
+    background-color: #262b40;
+    padding-top: 28px;
+}
+
+.sidenavClosed {
+    composes: sidenav;
+    transition: width 0.3s ease-in-out;
+    width: 60px
+}
+
+.sideitem {
+    display: flex;
+    align-items: center;
+    padding: 10px 10%;
+    cursor: pointer;
+    color: #eaedf2;
+    text-decoration: none;
+}
+
+.linkText {
+    padding-left: 16px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.linkTextClosed {
+    composes: linkText;
+    visibility: hidden;
+}
+
+.sideitem:hover {
+    background-color: #262b40;
+}
+
+.menuBtn {
+    align-self: center;
+    align-self: flex-start;
+    justify-self: flex-end;
+    color: #eaedf2;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 10%;
+}
+
+.logo {
+    align-self: center;
+    background-color: white;
+    justify-self: flex-end;
+    margin: 0.4rem;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.logoText {
+    align-self: center;
+    justify-self: flex-end;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #eaedf2;
+    
+}
+
+.logoSection {
+    align-self: center;
+    justify-self: flex-end;
+    display: flex;
+}
+
+.profilePic {
+    margin-left: 15%;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+.userText {
+    padding-left: 16px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #eaedf2;
+    margin-top: 0.7rem;
+    margin-left: 15%;
+}
+
+.userTextMin {
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #eaedf2;
+    margin-top: 0.5rem;
+}

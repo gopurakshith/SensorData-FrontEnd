@@ -1,0 +1,15 @@
+
+.ct_series_g {
+    background-color: #f5f8fb;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 60vw;
+    height: 60vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 4rem;
+}
+
+.dropDownButton {
+    width: 12rem;
+}
